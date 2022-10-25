@@ -6,10 +6,22 @@ public class Main {
 		// TODO Auto-generated method stub
 		//System.out.println("Hola");
 		//creando una instancia de la clase auto
-		Auto miPrimerAuto = new Auto();
-		miPrimerAuto.mostrarInfo();
+		Auto miPrimerAuto = new Auto(5);
 		miPrimerAuto.encender();
-		miPrimerAuto.mostrarInfo();
+		miPrimerAuto.acelerar();
+		miPrimerAuto.acelerar();
+		miPrimerAuto.acelerar();
+		miPrimerAuto.acelerar();
+		miPrimerAuto.acelerar();
+		miPrimerAuto.acelerar();
+		miPrimerAuto.acelerar();
+		miPrimerAuto.frenar();
+		miPrimerAuto.frenar();
+		miPrimerAuto.frenar();
+		miPrimerAuto.frenar();
+		miPrimerAuto.frenar();
+		miPrimerAuto.frenar();
+		miPrimerAuto.frenar();
+		System.out.println("fin");
 	}
-
 }
